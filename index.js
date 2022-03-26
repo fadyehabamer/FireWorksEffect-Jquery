@@ -1,4 +1,4 @@
-$('button').on('click', function (e) {
+$('button').on('dblclick', function (e) {
     if ($('input').val() == 10) {
         fireworks()
         $('input').css('border-color', 'green');
